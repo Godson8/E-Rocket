@@ -3,7 +3,7 @@ import React from "react";
 
 const MidSection = () => {
   return (
-    <div className="container">
+    <div className="container pt-12" id="about-section">
       <div className="pb-16 grid grid-cols-1 md:grid-cols-2 gap-16">
         <div className="w-full bg-slate-300 h-[500px] shadow-nav rounded-3xl p-9 relative flex justify-end overflow-hidden">
           <div className="w-3/4 space-y-2  flex flex-col z-10">
@@ -22,7 +22,7 @@ const MidSection = () => {
             </div>
           </div>
           <Image
-            src="/plane_building.PNG"
+            src="/planebuilding.png"
             width={200}
             height={100}
             className="object-contain absolute bottom-0 left-0 rounded-3xl"
@@ -42,7 +42,7 @@ const MidSection = () => {
             </p>
           </div>
           <Image
-            src="/rotor.PNG"
+            src="/rotorr.png"
             width={480}
             height={100}
             className="object-contain absolute -bottom-16 left-0 rounded-3xl"
@@ -65,10 +65,10 @@ const MidSection = () => {
             </div>
           </div>
           {/* <Image
-            src="/plane_building.png"
-            width={320}
+            src="/plane.png"
+            width={480}
             height={100}
-            className="object-contain absolute bottom-0 left-0 rounded-3xl"
+            className="object-contain absolute -bottom-16 left-0 rounded-3xl"
             alt="header"
           /> */}
         </div>
@@ -89,8 +89,8 @@ const MidSection = () => {
             </div>
           </div>
           {/* <Image
-            src="/plane_building.png"
-            width={320}
+            src="/plane.png"
+            width={480}
             height={100}
             className="object-contain absolute bottom-0 left-0 rounded-3xl"
             alt="header"

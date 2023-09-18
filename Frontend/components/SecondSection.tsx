@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import Link from "next/link";
 
 const SecondSection = () => {
   return (
@@ -24,7 +25,11 @@ const SecondSection = () => {
         innovative B2B marketplace and give your aviation business the
         eco-friendly boost it needs. Join us today and elevate your impact.
       </p>
-      <Button filled title="Sign Up Now" />
+      <Link href="/signup">
+        <div className="bg-[#FFD55A] text-primary px-[28px] py-2 font-primary font-semibold text-[17px] w-fit rounded-md hover:scale-105 transition-transform duration-200 ease-in-out cursor-pointer">
+          Sign Up Now
+        </div>
+      </Link>
     </div>
   );
 };

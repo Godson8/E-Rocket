@@ -60,8 +60,8 @@ const Header = () => {
                   }`}
           >
             <ul className="mobile:bg-white mobile:pl-6 mobile:pr-6 mobile:h-full mobile:flex mobile:flex-col mobile:pt-5 mobile:shadow-nav mobile:font-primary font-semibold md:h-16 md:flex md:items-center md:gap-8 md:pt-0 md:text-base md:z-20">
-              <li className="hover:text-secondary transition-all underline">
-                <Link href="/login">Login</Link>
+              <li className="hover:text-cyan-700 transition-all underline">
+                <Link href="/signin">Sign In</Link>
               </li>
             </ul>
           </div>
